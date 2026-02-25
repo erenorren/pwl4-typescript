@@ -1,0 +1,7 @@
+function hello(nama: string): string{
+    return 'Selamat Datang '+nama+' di PWL';
+}
+
+console.log(hello('She'));
+---------
+return `Selamat Datang ${nama} di PWL`
